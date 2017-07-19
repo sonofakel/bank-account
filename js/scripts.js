@@ -52,7 +52,7 @@ $(function() {
 
     var newCalc = new Calc(depositValue, withValue);
 
-    $(".current").text(newCalc.dep);
+    $(".current1").text(newCalc.dep);
     // $(".output1").show();
     $(".current-withdrawal").text(newCalc.with);
     // $(".output2").show();
